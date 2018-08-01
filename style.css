@@ -92,6 +92,14 @@ img.drop-shadow {
   width:100%;
 }
 
+a.img-hover {
+  opacity: 1;
+}
+
+a.img-hover:hover {
+  opacity: 0.8;
+}
+
 a {
   text-decoration: none;
   color: #222222;
