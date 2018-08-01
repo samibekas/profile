@@ -92,11 +92,11 @@ img.drop-shadow {
   width:100%;
 }
 
-a.img-hover {
+.img-hover {
   opacity: 1;
 }
 
-a.img-hover:hover {
+.img-hover:hover {
   opacity: 0.8;
 }
 
