@@ -1,0 +1,410 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+body {
+  color: #323232;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+.banner {
+  background-image: url(images/saim.png);
+  -webkit-transition: opacity 2s;
+  transition: opacity 2s;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 8px;
+}
+
+.banner .container {
+  color: white;
+  padding: 210px;
+}
+
+.banner .container p{
+  font-size: 18px;
+}
+
+
+h1, h2, h3, h4 {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: justify;
+}
+
+b {
+  color: white;
+}
+
+strong, b {
+  font-weight: bold;
+}
+
+.drop-shadow {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.25);
+}
+
+span.red-button {
+    background-color: #c24;
+    padding: 1px 4px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    transform: translate(0, -4px);
+    -webkit-transform: translate(0, -4px);
+    margin: 0 4px;
+    border-radius: 4px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+span.green-button {
+    background-color: #2da04c;
+    padding: 1px 4px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    transform: translate(0, -4px);
+    -webkit-transform: translate(0, -4px);
+    margin: 0 4px;
+    border-radius: 4px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+img.drop-shadow {
+  width:100%;
+}
+
+a {
+  text-decoration: none;
+  color: #222222;
+  opacity: 0.7; }
+
+a:hover {
+  opacity: 1; }
+
+.icon {
+  width: 20px;
+}
+
+
+#logo-small {
+  width: 22px;
+}
+
+.box-white {
+  padding: 30px 30px;
+  margin: 20px auto;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(50, 50, 50, 0.3);
+  background-color: white;
+  width: 500px; }
+
+.btn-red {
+  padding: 10px 15px;
+  background-color: #222222;
+  color: white;
+  display: block;
+  margin: auto;
+  opacity: 0.8;
+  width: fit-content;
+  border-radius: 4px; }
+
+.btn-red:hover {
+  opacity: 1; }
+
+.text-center {
+  text-align: center; }
+
+.img-circle {
+  border-radius: 50%; }
+
+footer {
+    width: 100%;
+    margin-top: 30px;
+    padding: 16px 0 48px 0;
+    background-color: #444;
+    overflow: hidden;
+}
+
+footer, footer h1 {
+    color: #888;
+}
+
+footer p {
+    font-size: 24px;
+}
+
+span.grey-button {
+    background-color: #888;
+    padding: 4px 8px;
+    color: #444;
+    font-weight: bold;
+    font-size: 14px;
+    transform: translate(0, -2px);
+    -webkit-transform: translate(0, -2px);
+    margin: 0 4px;
+    border-radius: 4px;
+}
+#resume img {
+  width: 110px;
+  height: 110px; }
+
+#movies-table img {
+  width: 110px;
+  padding: 10px; }
+
+.list-inline {
+  padding-left: 0; }
+
+.list-inline li {
+  display: inline;
+  margin: 10px; }
+
+.container {
+  max-width: 640px;
+  /* This sets the width */
+  margin: 0 auto;
+  /* This automatically sets left/right margins */
+  padding: 20px 30px;
+  margin: auto;
+}
+
+.card img {
+  width: 100px;
+  padding: 0px 5px; }
+
+.card {
+  display: inline-block;
+  margin: 15px 5px;
+  box-shadow: 0px 0px 5px rgba(30, 30, 30, 0.3);
+  border-radius: 3px;
+}
+
+.card p {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  padding-top: 0px;
+}
+
+.fab {
+  font-size: 30px;
+  margin: auto 20px;
+  color: white;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px; }
+    }
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px; }
+  }
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px; }
+  }
+
+
+.skills-bar-container {
+  min-width: 300px;
+  padding-left: 0;
+  list-style: none; }
+  .skills-bar-container li {
+    position: relative;
+    width: 100%;
+    }
+    .skills-bar-container li .progressbar-title {
+      color: #323232; }
+      .skills-bar-container li .progressbar-title {
+        display: inline-block; }
+      .skills-bar-container li .progressbar-title .percent {
+        position: absolute;
+        right: 5px; }
+    .skills-bar-container li .bar-container {
+      background: #555;
+      position: relative;
+      width: 100%;
+      height: 5px;
+      margin-top: 5px;
+      display: block;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      border-radius: 5px; }
+      .skills-bar-container li .bar-container .progressbar {
+        position: absolute;
+        width: 0%;
+        height: 100%;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        border-radius: 5px;
+        -webkit-animation-duration: 2s;
+        animation-duration: 2s;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both; }
+      .skills-bar-container li .bar-container #progress-html {
+        -webkit-animation-name: progress-html;
+        animation-name: progress-html;
+        -webkit-animation-delay: 0.7s;
+        animation-delay: 0.7s; }
+      .skills-bar-container li .bar-container #progress-css {
+        -webkit-animation-name: progress-css;
+        animation-name: progress-css;
+        -webkit-animation-delay: 1.4s;
+        animation-delay: 1.4s; }
+      .skills-bar-container li .bar-container #progress-javascript {
+        -webkit-animation-name: progress-javascript;
+        animation-name: progress-javascript;
+        -webkit-animation-delay: 2.1s;
+        animation-delay: 2.1s; }
+      .skills-bar-container li .bar-container #progress-php {
+        -webkit-animation-name: progress-php;
+        animation-name: progress-php;
+        -webkit-animation-delay: 2.8s;
+        animation-delay: 2.8s; }
+      .skills-bar-container li .bar-container #progress-angular {
+        -webkit-animation-name: progress-angular;
+        animation-name: progress-angular;
+        -webkit-animation-delay: 3.5s;
+        animation-delay: 3.5s; }
+      .skills-bar-container li .bar-container #progress-sketch {
+      -webkit-animation-name: progress-sketch;
+      animation-name: progress-sketch;
+      -webkit-animation-delay: 4.0s;
+      animation-delay: 4.0s; }
+
+.progressred {
+  background-color: #ef6534; }
+
+.progressblue {
+  background-color: #1199ff; }
+
+.progresspurple {
+  background-color: #e8c954; }
+
+.progressorange {
+  background-color: #b11515; }
+
+.progressgreen {
+  background-color: #2dae51; }
+
+.progressyellow {
+  background-color: #fbbc2c; }
+
+@-webkit-keyframes progress-html {
+  0% {
+    width: 0%; }
+  100% {
+    width: 100%; } }
+@-webkit-keyframes progress-css {
+  0% {
+    width: 0%; }
+  100% {
+    width: 90%; } }
+@-webkit-keyframes progress-javascript {
+  0% {
+    width: 0%; }
+  100% {
+    width: 70%; } }
+@-webkit-keyframes progress-php {
+  0% {
+    width: 0%; }
+  100% {
+    width: 80%; } }
+@-webkit-keyframes progress-angular {
+  0% {
+    width: 0%; }
+  100% {
+    width: 100%; } }
+@-webkit-keyframes progress-sketch {
+  0% {
+    width: 0%; }
+  100% {
+    width: 100%; } }
+@-moz-keyframes progress-html {
+  0% {
+    width: 0%; }
+  100% {
+    width: 100%; } }
+@-moz-keyframes progress-css {
+  0% {
+    width: 0%; }
+  100% {
+    width: 90%; } }
+@-moz-keyframes progress-javascript {
+  0% {
+    width: 0%; }
+  100% {
+    width: 70%; } }
+@-moz-keyframes progress-php {
+  0% {
+    width: 0%; }
+  100% {
+    width: 80%; } }
+@-moz-keyframes progress-angular {
+  0% {
+    width: 0%; }
+  100% {
+    width: 100%; } }
+@-webkit-keyframes progress-sketch {
+  0% {
+    width: 0%; }
+  100% {
+    width: 100%; } }
+@keyframes progress-html {
+  0% {
+    width: 0%; }
+  100% {
+    width: 100%; } }
+@keyframes progress-css {
+  0% {
+    width: 0%; }
+  100% {
+    width: 90%; } }
+@keyframes progress-javascript {
+  0% {
+    width: 0%; }
+  100% {
+    width: 70%; } }
+@keyframes progress-php {
+  0% {
+    width: 0%; }
+  100% {
+    width: 80%; } }
+@keyframes progress-angular {
+  0% {
+    width: 0%; }
+  100% {
+    width: 100%; } }
+@-webkit-keyframes progress-sketch {
+  0% {
+    width: 0%; }
+  100% {
+    width: 100%; } }
+
+/*# sourceMappingURL=style.css.map */
